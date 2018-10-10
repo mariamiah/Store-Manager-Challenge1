@@ -30,6 +30,9 @@ git clone https://github.com/mariamiah/Store-Manager-Challenge1.git
 ```
 Open the repo folder within your code editor forexample vscode
 
+### LINK TO MIMIZ HOME STORE on Github Pages
+### [MIMIZ HOME STORE](https://mariamiah.github.io/Store-Manager-Challenge1/)
+
 ## _Author_:
     Maria Nanfuka 
 
