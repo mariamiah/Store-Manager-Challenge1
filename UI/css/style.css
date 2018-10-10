@@ -61,6 +61,7 @@ body {
 .register {
     margin-left: 1%;
     border: solid thin lightgreen;
+    margin-top: 1px;
     background-color: white;
     width: px;
     height: 650px;
@@ -142,8 +143,9 @@ img {
     border-radius: 12%;
 
 }
-.register input[type=text]:hover{
-    border-color:red;
+
+.register input[type=text]:hover {
+    border-color: red;
 }
 
 .register input[type=email]:hover {
@@ -171,6 +173,14 @@ label {
 #account a {
     color: red;
     font-weight: bolder;
+}
+
+/* Style the logo on the login page*/
+#storelogo {
+    height: 90px;
+    width: 250px;
+    padding-top: 10px;
+    margin-left: 85px;
 }
 
 /*Add responsiveness for a mobile phone device*/
@@ -216,6 +226,13 @@ label {
         width: 45%;
         padding: 10px 15px;
         margin-left: 30%;
+    }
+
+    #storelogo {
+        height: 80px;
+        width: 150px;
+        padding-top: 10px;
+        margin-left: 40px;
     }
 }
 
@@ -267,6 +284,13 @@ label {
         padding: 10px 15px;
         margin-left: 25%;
     }
+
+    #storelogo {
+        height: 80px;
+        width: 170px;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
 }
 
 
@@ -317,6 +341,13 @@ label {
         width: 45%;
         padding: 10px 15px;
         margin-left: 30%;
+    }
+
+    #storelogo {
+        height: 80px;
+        width: 170px;
+        padding-top: 10px;
+        margin-left: 80px;
     }
 
 }
@@ -371,6 +402,13 @@ label {
         margin-left: 30%;
     }
 
+    #storelogo {
+        height: 80px;
+        width: 170px;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 1500px) {
@@ -379,6 +417,12 @@ label {
         width: 45%;
         padding: 10px 15px;
         margin-left: 30%;
+    }
+
+    #storelogo {
+        height: auto;
+        width: 70%;
+        margin-left: 12%;
     }
 
 }
