@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <title>MIMIZ HOME STORE|Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="topnav-list">
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="UI/about.html">About the store</a></li>
+                <li><a href="UI/contact.html">How to make more sales</a></li>
+                <li><a href="../index.html">Log out</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="rowone">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Welcome Maria!(Attendant)</h2>
+                <h5>Thursday, Oct 11, 2018</h5>
+                <div class="row">
+                    <div class="column">
+                        <div class="cardone">
+                            <img src="img/blue-denim-jeans-500x500.jpg" alt="Denim Jeans">
+                            <h4>Tailored Jeans</h4>
+                            <p class="price">shs.50,000</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="cardone">
+                            <img src="img/covert.jpg" alt="Denim Jeans">
+                            <h4>Covert Jeans</h4>
+                            <p class="price">shs.65,000</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="cardone">
+                            <img src="img/open knee.jpg" alt="Denim Jeans">
+                            <h4>open knee jeans</h4>
+                            <p class="price">shs.50,000</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="cardone">
+                            <img src="img/slim mom jeans.jpg" alt="Denim Jeans">
+                            <h4>Slim mom Jeans</h4>
+                            <p class="price">shs.75,000</p>
+                            <p><button>Add to Cart</button></p>
+                        </div>
+                    </div>
+                </div>
+                <p><strong>Today's quote</strong></p>
+                <p><strong><I>" Denim Jeans represent democracy in fashion"</I></strong></p>
+            </div>
+            <div class="card">
+                <h3>Sales Record</h3>
+                <table id="all-sales">
+                    <tr>
+                        <th></th>
+                        <th>DATE</th>
+                        <th>AMOUNT</th>
+                        <th>ACTION</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>11/10/2018</td>
+                        <td>shs.250,000</td>
+                        <td><button id="cancel">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>12/10/2018</td>
+                        <td>shs.230,000</td>
+                        <td><button id="request">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>13/10/2018</td>
+                        <td>shs.400,000</td>
+                        <td><button id="cancel">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>14/10/2018</td>
+                        <td>shs.430,000</td>
+                        <td><button id="request">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>15/10/2018</td>
+                        <td>shs.480,000</td>
+                        <td><button id="cancel">View</button></td>
+                    </tr>
+
+                </table>
+                <div class="table-footer">
+                    <button id="prev">
+                        << Previous</button>&nbsp; <button id="next">Next >>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <form>
+                    <input type="text" placeholder="Search products" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="card">
+                <h3>Products</h3>
+                <div class="subsection"><input type="submit" value="Stock ins" /></div><br>
+                <div class="subsection"><input type="submit" value="Stock outs" /></div><br>
+                <div class="subsection"><input type="submit" value="Notifications" /></div>
+            </div>
+            <div class="card">
+                <h3>Profile</h3>
+                <div class="profilecard">
+                    <p>Username: Maria</p>
+                    <p class="title">Designation:Store Attendant</p>
+                    <p>Address: Kampala</p>
+                    <p><button>Edit profile details</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Mimiz Home Store, 2018</h3>
+    </div>
+
+</body>
+
+</html>
