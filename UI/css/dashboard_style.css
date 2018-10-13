@@ -11,7 +11,7 @@ body {
 }
 
 /*Style the top navigation bar */
-.header{
+.header {
     background-color: black;
     color: white;
     padding: 5px;
@@ -40,12 +40,15 @@ body {
     color: white;
     text-decoration: none;
 }
-#welcome{
-    float:left;
+
+#welcome {
+    float: left;
 }
-#logout{
-    float:right;
+
+#logout {
+    float: right;
 }
+
 /* Add style to the Left column */
 .leftcolumn {
     float: left;
@@ -176,6 +179,7 @@ body {
 .rightcolumn .card button:hover {
     background: mediumaquamarine;
 }
+
 /* Add style to the sakles record table */
 table {
     width: 85%;
@@ -214,6 +218,7 @@ td {
     height: 50px;
     background: lightgray;
 }
+
 /* Style the previous button in the table footer */
 #prev {
     color: red;
@@ -223,6 +228,7 @@ td {
     background: linear-gradient(lightgrey, whitesmoke);
     padding: 5px 25px;
 }
+
 /* Style the next button in the table footer */
 #next {
     color: green;
@@ -305,7 +311,7 @@ td {
         padding: 5px 25px;
         background: linear-gradient(lightgrey, whitesmoke);
     }
-   
+
 
     .profilecard {
         margin-left: 10%;
