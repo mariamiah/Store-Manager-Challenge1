@@ -32,7 +32,17 @@ body {
     color: white;
     text-decoration: none;
 }
-
+#indexhome{
+    float:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#login{
+    float:right;
+}
+#signup{
+    float:right;
+}
 /* Change the color of links on hover */
 .topnav-list a:hover {
 
