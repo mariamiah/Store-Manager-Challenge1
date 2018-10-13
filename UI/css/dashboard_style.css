@@ -32,7 +32,7 @@ body {
     font-size: 18px;
     height: 10px;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 15px 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -40,7 +40,12 @@ body {
     color: white;
     text-decoration: none;
 }
-
+#welcome{
+    float:left;
+}
+#logout{
+    float:right;
+}
 /* Add style to the Left column */
 .leftcolumn {
     float: left;
@@ -272,7 +277,7 @@ td {
 
     .table-footer {
         margin-left: 40px;
-        width: 85%;
+        width: 75%;
         height: 50px;
         background: inherit;
     }
@@ -295,7 +300,7 @@ td {
     #next {
         color: green;
         float: right;
-        margin-top: 12px;
+        margin-top: 30px;
         margin-right: 10px;
         padding: 5px 25px;
         background: linear-gradient(lightgrey, whitesmoke);
