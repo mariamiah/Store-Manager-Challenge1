@@ -59,3 +59,18 @@
         height: 80px;
 
 }
+/* Style the total cell in the sales record table */
+#total{
+    color:red;
+}
+
+/* Style the sales record title */
+#salestitle{
+    text-align:center;
+    color:green;
+}
+/* Style the sales record date*/
+#salesdate{
+    color:blue;
+    text-align:center;
+}
