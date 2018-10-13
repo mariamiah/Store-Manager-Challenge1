@@ -11,7 +11,7 @@ body {
 }
 
 /*Style the top navigation bar */
-.header{
+.header {
     background-color: black;
     color: white;
     padding: 5px;
@@ -32,13 +32,21 @@ body {
     font-size: 18px;
     height: 10px;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 15px 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header .topnav-list a {
     color: white;
     text-decoration: none;
+}
+
+#welcome {
+    float: left;
+}
+
+#logout {
+    float: right;
 }
 
 /* Add style to the Left column */
@@ -171,6 +179,7 @@ body {
 .rightcolumn .card button:hover {
     background: mediumaquamarine;
 }
+
 /* Add style to the sakles record table */
 table {
     width: 85%;
@@ -209,6 +218,7 @@ td {
     height: 50px;
     background: lightgray;
 }
+
 /* Style the previous button in the table footer */
 #prev {
     color: red;
@@ -218,6 +228,7 @@ td {
     background: linear-gradient(lightgrey, whitesmoke);
     padding: 5px 25px;
 }
+
 /* Style the next button in the table footer */
 #next {
     color: green;
@@ -272,7 +283,7 @@ td {
 
     .table-footer {
         margin-left: 40px;
-        width: 85%;
+        width: 75%;
         height: 50px;
         background: inherit;
     }
@@ -295,12 +306,12 @@ td {
     #next {
         color: green;
         float: right;
-        margin-top: 12px;
+        margin-top: 30px;
         margin-right: 10px;
         padding: 5px 25px;
         background: linear-gradient(lightgrey, whitesmoke);
     }
-   
+
 
     .profilecard {
         margin-left: 10%;
