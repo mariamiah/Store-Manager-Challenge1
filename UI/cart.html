@@ -16,11 +16,9 @@
     <div class="header">
         <div class="topnav-list">
             <ul>
-                <li><a href="dashboard.html">Dashboard</a></li>
-                <li><a href="UI/about.html">About the store</a></li>
-                <li><a href="UI/contact.html">How to make more sales</a></li>
-                <li><a href="../index.html">Log out</a></li>
+                <li id="logout"><a href="../index.html">Log out</a></li>
             </ul>
+            <h3 id="welcome"><a href="dashboard.html">Dashboard</a></h3>
 
         </div>
     </div>
@@ -96,37 +94,31 @@
                 <div class="table-footer">
                     <form action="inventory.html">
                         <button id="prev"><strong>
-                                << Continue Shopping</strong> </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="secondcolumn">
-                <div class="card">
-                    <div class="container">
-                        <form action="dashboard.html">
-                            <div class="billing">
-                                    <h3>Customer Details</h3>
-                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Name">
-                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                    <input type="text" id="email" name="email" placeholder="name@mail.com">
-                                    <div class="icon-container">
-                                        <i class="fa fa-cc-visa"id="visa"></i>
-                                        <i class="fa fa-cc-amex" id="amex"></i>
-                                        <i class="fa fa-cc-mastercard" id="mastercard"></i>
-                                        <i class="fa fa-cc-discover" id="discover"></i>
+                                << Continue Shopping</strong> </button> </form> </div> </div> </div> </div> <div class="secondcolumn">
+                                    <div class="card">
+                                        <div class="container">
+                                            <form action="dashboard.html">
+                                                <div class="billing">
+                                                    <h3>Customer Details</h3>
+                                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                                    <input type="text" id="fname" name="firstname" placeholder="Name">
+                                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                                    <input type="text" id="email" name="email" placeholder="name@mail.com">
+                                                    <div class="icon-container">
+                                                        <i class="fa fa-cc-visa" id="visa"></i>
+                                                        <i class="fa fa-cc-amex" id="amex"></i>
+                                                        <i class="fa fa-cc-mastercard" id="mastercard"></i>
+                                                        <i class="fa fa-cc-discover" id="discover"></i>
+                                                    </div>
+                                                    <label for="ccnum">Credit card number</label>
+                                                    <input type="text" id="ccnum" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+                                                </div>
+
+                                                <input type="submit" value="Continue to checkout" class="btn">
+                                            </form>
+                                        </div>
                                     </div>
-                                    <label for="ccnum">Credit card number</label>
-                                    <input type="text" id="ccnum" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
-                            </div>
-                        
-                            <input type="submit" value="Continue to checkout" class="btn">
-                        </form>
-                    </div>
                 </div>
-        </div>
 </body>
 
 </html>
