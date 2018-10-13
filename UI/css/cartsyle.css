@@ -63,6 +63,19 @@
 .btn:hover {
     background-color: #45a049;
 }
+/* Add color to the electronic payment options*/
+#visa{
+    color:navy;
+}
+#amex{
+    color:blue;
+}
+#mastercard{
+    color:red;
+}
+#discover{
+    color:orange;
+}
 
 /*Add responsiveness for media screens less than 800px*/
 @media screen and (max-width: 800px) {
