@@ -22,3 +22,18 @@
     color:green;
     margin-left:3%;
 }
+/* Style the add new product form */
+#product{
+   width:70%;
+   margin-left:15%;
+}
+/* Style the drop down list in the product form */
+#select{
+    width:40%;
+    height: 40px;
+}
+/* Style the text area containing product description*/
+textarea{
+    width:60%;
+    height:70px;
+}
