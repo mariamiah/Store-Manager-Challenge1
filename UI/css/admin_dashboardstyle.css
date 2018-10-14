@@ -37,3 +37,7 @@ textarea{
     width:60%;
     height:70px;
 }
+/* Style the edit product button on the administrator dashboard */
+#edit{
+    width:40%;
+}
