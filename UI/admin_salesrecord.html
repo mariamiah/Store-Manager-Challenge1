@@ -9,17 +9,18 @@
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/inventorystyle.css" />
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="topnav-list">
             <ul>
+                <li id="welcome"><a href="admin_dashboard.html">Welcome Maria!(Admin)</a></li>
+                <li id="admin"><a href="#">Attendant Dashboard</a></li>
+                <li id="admin"><a href="admin_dashboard.html">Administrator Dashboard</a></li>
                 <li id="logout"><a href="../index.html">Logout</a></li>
             </ul>
-            <h3 id="welcome"><a href="employees.html">Employees</a></h3>
-
         </div>
     </div>
     <div class="rowone">
@@ -27,7 +28,7 @@
             <div class="card">
                 <h3 id="salestitle">DAILY CASH REGISTER SALES</h3>
                 <h5 id="salesdate">Thursday, Oct 11, 2018</h5>
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products..">
+                <input type="text" id="myInput" placeholder="Search for products..">
                 <table id="inventory">
                     <tr>
 

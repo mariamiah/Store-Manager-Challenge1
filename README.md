@@ -2,7 +2,8 @@
 
 Store Manager is a web application that helps store owners manage sales and product inventory records. This application is meant for use in a single store.
 
-## Features 
+## Features
+
 - Store attendant can search and add products to the buyers' cart
 - Store attendant can see his/her sales records but cannot modify them.
 - The application shows available products, quantity and price.
@@ -17,27 +18,25 @@ Store Manager is a web application that helps store owners manage sales and prod
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
+
 You need to have the following installed onto your local machine
-```
-Code Editor forexample vscode
+
+```Code Editor forexample vscode
 ```
 
 ### Installations
 
 Clone the repo onto your local machine by using the command below:
+
+```git clone https://github.com/mariamiah/Store-Manager-Challenge1.git
 ```
-git clone https://github.com/mariamiah/Store-Manager-Challenge1.git
-```
+
 Open the repo folder within your code editor forexample vscode
 
 ### Link to Mimiz Home Store on Github Pages
+
 ### [Mimiz Home Store](https://mariamiah.github.io/Store-Manager-Challenge1/)
 
-## _Author_:
-    Maria Nanfuka 
+## _Author_
 
-
-
-
-
-
+    Maria Nanfuka
