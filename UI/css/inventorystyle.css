@@ -49,11 +49,6 @@
     background: linear-gradient(lightgrey, whitesmoke);
 }
 
-/* Size the table footer */
-.table-footer {
-    width: 100%;
-
-}
 
 #inventory img {
     width: 90px;
@@ -93,10 +88,5 @@
 
     #add {
         margin-top: 14px;
-    }
-
-    .table-footer {
-        width: 175%;
-
     }
 }

@@ -7,24 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <title>MIMIZ HOME STORE|AdminInventory</title>
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/inventorystyle.css" />
-    <script src="js/scripts.js"></script>
 </head>
 
 <body>
     <div class="header">
         <div class="topnav-list">
             <ul>
+
+                <li id="welcome"><a href="admin_dashboard.html">Welcome Maria!(Admin)</a></li>
+                <li id="admin"><a href="#">Attendant Dashboard</a></li>
+                <li id="admin"><a href="admin_dashboard.html">Administrator Dashboard</a></li>
                 <li id="logout"><a href="../index.html">Logout</a></li>
             </ul>
-            <h3 id="welcome"><a href="admin_dashboard.html">Admin Dashboard</a></h3>
         </div>
     </div>
     <div class="rowone">
         <div class="leftcolumn">
             <div class="card">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products..">
+                <input type="text" id="myInput" placeholder="Search for products..">
                 <table id="inventory">
                     <tr>
                         <th>Item#</th>
@@ -49,7 +52,9 @@
                         <td>Blue</td>
                         <td>75,000</td>
                         <td>4</td>
-                        <form action="edit_product.html"><td><input type="submit" value="Edit"></td></form>
+                        <form action="edit_product.html">
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
                         <td><input type="submit" value="Delete"></td>
                     </tr>
                     <tr>
@@ -62,7 +67,9 @@
                         <td>Blue</td>
                         <td>75,000</td>
                         <td>2</td>
-                        <form action="edit_product.html"><td><input type="submit" value="Edit"></td></form>
+                        <form action="edit_product.html">
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
                         <td><input type="submit" value="Delete"></td>
                     </tr>
                     <tr>
@@ -76,8 +83,9 @@
                         <td>85,000</td>
                         <td>6</td>
                         <form action="edit_product.html">
-                            <td><input type="submit" value="Edit"></td></form>
-                        
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
+
                         <td><input type="submit" value="Delete"></td>
                     </tr>
                     <tr>
@@ -90,7 +98,9 @@
                         <td>Black</td>
                         <td>45,000</td>
                         <td>9</td>
-                        <form action="edit_product.html"><td><input type="submit" value="Edit"></td></form>
+                        <form action="edit_product.html">
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
                         <td><input type="submit" value="Delete"></td>
                     </tr>
                     <tr>
@@ -103,7 +113,9 @@
                         <td>Black</td>
                         <td>65,000</td>
                         <td>7</td>
-                        <form action="edit_product.html"><td><input type="submit" value="Edit"></td></form>
+                        <form action="edit_product.html">
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
                         <td><input type="submit" value="Delete"></td>
                     </tr>
                     <tr>
@@ -116,14 +128,16 @@
                         <td>Navy Blue</td>
                         <td>95,000</td>
                         <td>1</td>
-                        <form action="edit_product.html"><td><input type="submit" value="Edit"></td></form>
+                        <form action="edit_product.html">
+                            <td><input type="submit" value="Edit"></td>
+                        </form>
                         <td><input type="submit" value="Delete"></td>
                     </tr>
 
                 </table>
                 <div class="table-footer">
                     <button id="prev">
-                        << Previous</button>&nbsp; <form action="new_product.html"><button id="add">Add New Product</button></form>
+                        << Previous</button>&nbsp; <form action="edit_product.html"><button id="add">Add New Product</button></form>
                             <button id="nextone">Next >></button>
                 </div>
             </div>
