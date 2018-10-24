@@ -9,22 +9,24 @@
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/inventorystyle.css" />
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="topnav-list">
             <ul>
+                <li id="welcome"><a href="dashboard.html">Welcome Maria!(Attendant)</a></li>
+                <li id="admin"><a href="dashboard.html">Attendant Dashboard</a></li>
+                <li id="admin"><a href="#">Administrator Dashboard</a></li>
                 <li id="logout"><a href="../index.html">Logout</a></li>
             </ul>
-            <h3 id="welcome"><a href="dashboard.html">Dashboard</a></h3>
         </div>
     </div>
     <div class="rowone">
         <div class="leftcolumn">
             <div class="card">
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products..">
+                <input type="text" id="myInput" placeholder="Search for products..">
                 <table id="inventory">
                     <tr>
                         <th>Item#</th>

@@ -5,42 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-    <title>MIMIZ HOME STORE|Welcome</title>
+    <title>MIMIZ HOME STORE|Login</title>
     <link rel="stylesheet" type="text/css" href="UI/css/style.css" />
 </head>
 
 <body>
-    <div class="topnav">
-        <div class="topnav-list">
-            <ul>
-                <li id="indexhome"><a href="index.html">Mimiz Home STORE</a></li>
-                <li id="login"><a href="UI/login.html">Login</a></li>
-            </ul>
-        </div>
-    </div>
+    <div class="topnav" id="indexnav"></div>
     <div class="main">
         <div id="image">
-            <img src="./UI/img/nathan-dumlao-483394-unsplash.jpg" />
-        </div>
-        <div class="register">
-            <div id="brand">
-                <h3>MIMIZ HOME STORE</h3>
+            <img src="./UI/img/nathan-dumlao-483394-unsplash.jpg"></div>
+
+        <div class="login">
+            <div>
+                <img src="./UI/img/logo2.PNG" id="storelogo" />
             </div>
-            <form action="UI/login.html">
-                <h3>Register to get started</h3>
-                <label>Name:</label>
-                <input type="text" placeholder="Name" required />
-                <label>Username:</label>
-                <input type="text" placeholder="User name" required />
+            <form action="UI/dashboard.html">
+                <h3>Login to get started</h3>
                 <label>Email:</label>
                 <input type="email" placeholder="name@email.com" required />
                 <label>Password:</label>
                 <input type="password" placeholder="Enter password" required />
-                <label>Confirm Password:</label>
-                <input type="password" placeholder="Confirm Password" required />
-                <input type="submit" id="submitbutton" value="Register" />
+                <input type="submit" id="submitbutton" value="Login" />
             </form>
-            <div id="account">Already registered? <a href="UI/login.html">Login</a></div>
         </div>
     </div>
 </body>

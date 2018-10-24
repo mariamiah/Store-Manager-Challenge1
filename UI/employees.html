@@ -11,24 +11,27 @@
     <link rel="stylesheet" type="text/css" href="css/cartsyle.css" />
     <link rel="stylesheet" type="text/css" href="css/admin_dashboardstyle.css" />
     <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="topnav-list">
             <ul>
+                <li id="welcome"><a href="admin_dashboard.html">Welcome Maria!(Admin)</a></li>
+                <li id="admin"><a href="#">Attendant Dashboard</a></li>
+                <li id="admin"><a href="admin_dashboard.html">Administrator Dashboard</a></li>
                 <li id="logout"><a href="../index.html">Logout</a></li>
             </ul>
-            <h3 id="welcome"><a href="admin_dashboard.html">Admin Dashboard</a></h3>
-
         </div>
     </div>
     <div class="rowone">
         <div class="firstcolumn">
             <div class="card">
                 <input type="text" id="myInput" placeholder="Search employees..">
-                <input type="date" name="date">
-                <input type="submit" value="search">
+                <form action="register.html">
+                    <input type="submit" id="add_employee" value="Add Employee" />
+                </form>
                 <table id="checkout">
                     <tr>
                         <th>S.No</th>
@@ -52,10 +55,11 @@
                         <td>Kampala</td>
                         <td>M</td>
                         <td>5,690,000</td>
-                        <td><form action="admin_salesrecord.html">
+                        <td>
+                            <form action="admin_salesrecord.html">
                                 <button id="remove">Sales Record</button>
-                        </form>
-                            
+                            </form>
+
                         </td>
                         <td>
                             <button id="remove">Delete user</button>
@@ -75,10 +79,11 @@
                         <td>F</td>
                         <td>7,610,000</td>
 
-                        <td><form action="admin_salesrecord.html">
-                            <button id="remove">Sales Record</button>
-                        </form>
-                            
+                        <td>
+                            <form action="admin_salesrecord.html">
+                                <button id="remove">Sales Record</button>
+                            </form>
+
                         </td>
                         <td>
                             <button id="remove">Delete user</button>
@@ -97,10 +102,11 @@
                         <td>F</td>
                         <td>7,189,000</td>
 
-                        <td><form action="admin_salesrecord.html">
+                        <td>
+                            <form action="admin_salesrecord.html">
                                 <button id="remove">Sales Record</button>
-                        </form>
-                            
+                            </form>
+
                         </td>
                         <td>
                             <button id="remove">Delete user</button>
@@ -119,10 +125,11 @@
                         <td>F</td>
                         <td>5,600,000</td>
 
-                        <td><form action="admin_salesrecord.html">
+                        <td>
+                            <form action="admin_salesrecord.html">
                                 <button id="remove">Sales Record</button>
-                        </form>
-                            
+                            </form>
+
                         </td>
                         <td>
                             <button id="remove">Delete user</button>
@@ -141,10 +148,11 @@
                         <td>M</td>
                         <td>1,600,000</td>
 
-                        <td><form action="admin_salesrecord.html">
+                        <td>
+                            <form action="admin_salesrecord.html">
                                 <button id="remove">Sales Record</button>
-                        </form>
-                            
+                            </form>
+
                         </td>
                         <td>
                             <button id="remove">Delete user</button>

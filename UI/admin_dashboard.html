@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
     <title>MIMIZ HOME STORE|AdminDashboard</title>
-    <link rel="stylesheet" type="text/css" href="css/dashboard_style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/admin_dashboardstyle.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dashboard_style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/admin_dashboardstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="topnav-list">
-            <ul>             
+            <ul>
+                <li id="welcome"><a href="admin_dashboard.html">Welcome Maria!(Admin)</a></li>
+                <li id="admin"><a href="dashboard.html">Attendant Dashboard</a></li>
+                <li id="admin"><a href="admin_dashboard.html">Administrator Dashboard</a></li>
                 <li id="logout"><a href="../index.html">Logout</a></li>
             </ul>
-            <h3 id="welcome"><a href="admin_dashboard.html">Welcome Maria!(Administrator)</a></h3>
-
         </div>
     </div>
     <div class="rowone">
         <div class="leftcolumn">
             <div class="card" id="admincards">
-                
+
                 <h5>Thursday, Oct 11, 2018</h5>
                 <div class="row">
                     <div class="column">
@@ -141,12 +143,12 @@
             </div>
         </div>
         <div class="rightcolumn">
-                <div class="card" id="admincards">
-                        <form>
-                            <input type="text" placeholder="Search products" name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                    </div>
+            <div class="card" id="admincards">
+                <form>
+                    <input type="text" placeholder="Search.." name="search" id="itemsearch">
+                    <button type="submit" id="searchbutton">Search</i></button>
+                </form>
+            </div>
             <div class="card" id="admincards">
                 <form action="admin_productlist.html">
                     <div class="subsection"><input type="submit" value="Product List" /></div>
@@ -157,13 +159,13 @@
                 </form>
                 <br>
                 <form action="employees.html">
-                        <div class="subsection"><input type="submit" value="Employees" /></div>
-                    </form><br>
+                    <div class="subsection"><input type="submit" value="Manage Employees" /></div>
+                </form><br>
                 <form action="admin_about.html">
-                <div class="subsection"><input type="submit" value="About the Store" /></div>
+                    <div class="subsection"><input type="submit" value="About the Store" /></div>
                 </form><br>
             </div>
-            
+
         </div>
     </div>
 
