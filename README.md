@@ -21,14 +21,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need to have the following installed onto your local machine
 
-```Code Editor forexample vscode
+```
+Code Editor forexample vscode
+
 ```
 
 ### Installations
 
 Clone the repo onto your local machine by using the command below:
 
-```git clone https://github.com/mariamiah/Store-Manager-Challenge1.git
+```
+git clone https://github.com/mariamiah/Store-Manager-Challenge1.git
+
 ```
 
 Open the repo folder within your code editor forexample vscode
