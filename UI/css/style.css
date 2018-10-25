@@ -1,4 +1,4 @@
-/* Add style to the body*/
+/* Add style to the body */
 body {
     height: 100vh;
     margin: 0;
@@ -21,7 +21,7 @@ body {
     margin-left: -80px;
     margin-top: 5px;
     margin-bottom: 1px;
-    float:right;
+    float: right;
 }
 
 .topnav-list li {
@@ -42,7 +42,7 @@ body {
 .topnav-list a:hover {
 
     color: red;
-    
+
 }
 
 /*Style the main section of body*/
@@ -136,6 +136,7 @@ img {
     border-color: mediumturquoise;
     border-radius: 12%;
 }
+
 /* Style the text boxes */
 .login input[type=text]:hover {
     border-color: red;
@@ -177,20 +178,21 @@ label {
         width: 80%;
         height: 60%;
     }
+
     .main {
         display: flow-root;
         height: 100%;
         width: 80%;
-        margin-left:10%;
+        margin-left: 10%;
     }
 
     img {
         height: 200px;
-        width:260px;
-        max-width:100%;
-        margin-left:5%;
+        width: 260px;
+        max-width: 100%;
+        margin-left: 5%;
     }
-    
+
     body {
         background-color: rgb(12, 44, 12);
     }
@@ -203,10 +205,11 @@ label {
     }
 
     #storelogo {
-        display:none;
+        display: none;
     }
-    .login form{
-        margin-top:23%;
+
+    .login form {
+        margin-top: 23%;
     }
 }
 
@@ -218,7 +221,8 @@ label {
         margin-top: 5px;
         margin-left: 13%;
     }
-     .main {
+
+    .main {
         display: flow-root;
         height: 100%;
         width: 80%;
@@ -241,13 +245,14 @@ label {
     }
 
     #storelogo {
-        display:none;
+        display: none;
     }
-    .login form{
-    width: 100%;
-    margin-top:60px;
+
+    .login form {
+        width: 100%;
+        margin-top: 60px;
     }
-  }
+}
 
 /*Add responsiveness for larger tablet devices*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -292,7 +297,7 @@ label {
 /*Add responsiveness for medium devices like desktops*/
 
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
-        .login {
+    .login {
 
         width: 60%;
         height: auto;
@@ -330,7 +335,7 @@ label {
     }
 
     #storelogo {
-       display:none;
+        display: none;
     }
 
 }
