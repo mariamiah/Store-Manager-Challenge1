@@ -3,14 +3,10 @@
 }
 
 #myInput {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
     width: 100%;
     font-size: 16px;
-    padding: 12px 20px 12px 40px;
+    padding: 10px 30px 12px 20px;
     border: 1px solid #ddd;
-    margin-bottom: 12px;
 }
 
 #inventory {
@@ -89,4 +85,60 @@
     #add {
         margin-top: 14px;
     }
+
+    #inventory {
+        border-collapse: collapse;
+        width: 30%;
+        border: 1px solid #ddd;
+        font-size: 13px;
+    }
+
+    #inventory th,
+    #inventory td {
+        text-align: left;
+        padding: 6px;
+    }
+
+    #inventory tr {
+        border-bottom: 0px solid #ddd;
+    }
+
+    #inventory img {
+        display: none;
+
+    }
+
+    #item {
+        display: none;
+    }
+}
+
+/*Add responsiveness for a mobile phone device*/
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+    #inventory {
+        border-collapse: collapse;
+        width: 20%;
+        border: 1px solid #ddd;
+        font-size: 13px;
+    }
+
+    #inventory th,
+    #inventory td {
+        text-align: left;
+        padding: 1px;
+    }
+
+    #inventory tr {
+        border-bottom: 0px solid #ddd;
+    }
+
+    #inventory img {
+        display: none;
+
+    }
+
+    #item {
+        display: none;
+    }
+
 }

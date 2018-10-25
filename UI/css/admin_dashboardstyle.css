@@ -1,5 +1,5 @@
 /* Style the save button on the employees page */
-#save{
+#save {
     color: green;
     float: right;
     margin-top: 18px;
@@ -7,64 +7,76 @@
     padding: 5px 25px;
     background: linear-gradient(lightgrey, whitesmoke);
 }
+
 /* Style the employees table footer */
-#footer{
-    width:100%;
+#footer {
+    width: 100%;
 }
-.card input[type="date"]{
-    width:30%;
+
+.card input[type="date"] {
+    width: 30%;
 }
-#datelabel{
-    color:green;
-    margin-left:3%;
+
+#datelabel {
+    color: green;
+    margin-left: 3%;
 }
+
 /* Style the add new product form */
-#product{
-   width:70%;
-   margin-left:15%;
+#product {
+    width: 70%;
+    margin-left: 15%;
 }
+
 /* Style the drop down list in the product form */
-#select{
-    width:40%;
+#select {
+    width: 40%;
     height: 40px;
-    padding:10px 10px 10px 10px;
-    margin-bottom:10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
 }
+
 /* Style the choose file button */
-#upload{
-    margin-bottom:10px;
+#upload {
+    margin-bottom: 10px;
 }
+
 /* Style the text area containing product description*/
-textarea{
-    width:60%;
-    height:70px;
+textarea {
+    width: 60%;
+    height: 70px;
 }
+
 /* Style the edit product button on the administrator dashboard */
-#edit{
-    width:40%;
+#edit {
+    width: 40%;
 }
+
 /* Style the add employee button */
-#add_employee{
+#add_employee {
     color: blue;
     float: left;
-    margin-left:1%;
+    margin-left: 1%;
     height: 40px;
-    padding:10px 10px;
+    padding: 10px 10px;
 }
+
 /* Style the email box */
-#email{
-    width:40%;
-    height:40px;
-    margin-bottom:2%;
+#email {
+    width: 40%;
+    height: 40px;
+    margin-bottom: 2%;
 }
-#itemsearch{
-    width:50%;
-    height:30px;
-    margin-top:1%;
+
+#itemsearch {
+    width: 50%;
+    height: 30px;
+    margin-top: 1%;
 }
+
 /* Style the search text box */
-#searchbutton{
-    width:70px;
+#searchbutton {
+    width: 70px;
 }
 
 /*Add responsiveness for a mobile phone device*/
@@ -73,19 +85,21 @@ textarea{
     #adminsalestable {
         width: 100%;
     }
-    .topnav ul{
-        display:inline-block;
+
+    .topnav ul {
+        display: inline-block;
     }
 }
 
 /* Add responsiveness for smaller tablet devices*/
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-    
+
     #adminsalestable {
         max-width: 100%;
     }
-    .topnav ul{
-        display:inline-block;
+
+    .topnav ul {
+        display: inline-block;
     }
 }
 
@@ -94,8 +108,9 @@ textarea{
     #adminsalestable {
         max-width: 100%;
     }
-    .topnav ul{
-        float:right;
+
+    .topnav ul {
+        float: right;
     }
 }
 
@@ -104,21 +119,21 @@ textarea{
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
 
     #adminsalestable {
-       max-width: 100%;
+        max-width: 100%;
     }
-    .subsection  input[type=submit]{
-        max-width:100%;
+
+    .subsection input[type=submit] {
+        max-width: 100%;
     }
 }
 
 @media only screen and (min-width: 1081px) and (max-width: 1500px) {
-  
+
     #adminsalestable {
         max-width: 100%;
     }
-    .subsection  input[type=submit]{
-        max-width:100%;
+
+    .subsection input[type=submit] {
+        max-width: 100%;
     }
 }
-
-
